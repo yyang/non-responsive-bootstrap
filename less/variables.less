@@ -45,7 +45,7 @@
 // Typography
 // -------------------------
 @sansFontFamily:        Roboto, Helvetica, Arial, sans-serif;
-@condSensFontFamily:    "Roboto Condensed", Helvetica, Arial, sans-serif;
+@condSansFontFamily:    "Roboto Condensed", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
@@ -54,8 +54,8 @@
 @baseLineHeight:        20px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsFontFamily:    @condSansFontFamily; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    600;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
 
@@ -104,7 +104,7 @@
 @btnDangerBackground:               #ee5f5b;
 @btnDangerBackgroundHighlight:      #bd362f;
 
-@btnInverseBackground:              #444;
+@btnInverseBackground:              #555;
 @btnInverseBackgroundHighlight:     @grayDarker;
 
 
