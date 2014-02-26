@@ -10,6 +10,8 @@
   margin-left: 0;
   margin-bottom: @baseLineHeight;
   list-style: none;
+  font-family: @titleFontFamily;
+  font-weight: 500;
 }
 
 // Make links block level
@@ -123,9 +125,12 @@
   padding-bottom: 8px;
   line-height: @baseLineHeight;
   border: 1px solid transparent;
+  background-color: #999;
+  color: #fff;
   .border-radius(4px 4px 0 0);
   &:hover,
   &:focus {
+    background-color: #8b8b8b;
     border-color: @grayLighter @grayLighter #ddd;
   }
 }
@@ -133,7 +138,7 @@
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-  color: @gray;
+  color: @linkColor;
   background-color: @bodyBackground;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
