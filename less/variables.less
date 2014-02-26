@@ -38,13 +38,14 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             #7e1c39;
+@linkColorHover:        #552035;
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamily:        Roboto, Helvetica, Arial, sans-serif;
+@condSensFontFamily:    "Roboto Condensed", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
@@ -84,15 +85,15 @@
 
 // Buttons
 // -------------------------
-@btnBackground:                     @white;
-@btnBackgroundHighlight:            darken(@white, 10%);
-@btnBorder:                         #ccc;
+@btnBackground:                     #cdcdcd;
+@btnBackgroundHighlight:            darken(#cdcdcd, 10%);
+@btnBorder:                         #999;
 
-@btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackground:              #0096a7;
+@btnPrimaryBackgroundHighlight:     darken(@btnPrimaryBackground, 5%);
 
-@btnInfoBackground:                 #5bc0de;
-@btnInfoBackgroundHighlight:        #2f96b4;
+@btnInfoBackground:                 #66b31b;
+@btnInfoBackgroundHighlight:        darken(@btnInfoBackground, 5%);
 
 @btnSuccessBackground:              #62c462;
 @btnSuccessBackgroundHighlight:     #51a351;
